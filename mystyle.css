@@ -1,0 +1,266 @@
+            h1, h2, h3 {
+                text-align: center;
+            }
+
+            h1 { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 48px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } 
+            h2 { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } 
+            h3 { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } 
+            p { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+            blockquote { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
+            pre { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+
+        .container{
+        display: grid;
+          grid-auto-rows: auto;
+          column-gap: 10px;
+          row-gap: 10px;
+          background-color: #f7f4f3;
+          
+        }
+        .braids {
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 1;
+            grid-column-end: 8;
+            color:#002FA7;
+        }
+        .braids-image {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            /* border: solid; */
+            align-content: center;
+        }
+       .braids-text {
+        grid-column-start: 4;
+        grid-column-end: 8;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        /* border: solid; */
+        background-color: #54718F ;
+        padding-top: 10em;
+        padding-left: 5em;
+        padding-right: 5em;
+        color:#f7f4f3;
+       }
+
+       .list-section-1 {
+        grid-column-start: 1; 
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 8;
+        /* border: solid; */
+        background-color: #54718F ;
+        font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+        font-size: 14px; 
+        font-style: normal; font-variant: normal; 
+        font-weight: 400; 
+        line-height: 20px;
+        color:#f7f4f3;
+              
+       }
+       .table-section-1 {
+        grid-column-start: 4;
+        grid-column-end: 8;
+        grid-row-start: 3;
+        grid-row-end: 8;
+        /* border: solid; */
+        padding-left: 5em;
+        padding-right: 5em;
+        background-color: #224A63;
+        font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+        font-size: 14px; 
+        font-style: normal; font-variant: normal; 
+        font-weight: 400; 
+        line-height: 20px;
+        color:#f7f4f3;
+       }
+       
+        .chem-image {
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 1;
+            grid-column-end: 8;
+            justify-self: center;
+        }
+        .chem-header {
+            grid-row-start: 2;
+            grid-row-end: 2;
+            grid-column-start: 1;
+            grid-column-end: 8;
+            background-color: #224A63;
+            color:#f7f4f3;
+          
+        }
+        .chem-list-section {
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            /* border: solid; */
+            padding-left: 5em;
+            padding-right: 5em;
+            background-color: #54718F;
+            font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+            font-size: 14px; 
+            font-style: normal; font-variant: normal; 
+            font-weight: 400; 
+            line-height: 20px;
+            color:#10222E;
+        }
+       .chem-table-section-1 {
+        grid-column-start: 4;
+        grid-column-end: 8;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        /* border: solid; */
+        background-color: #C5AFA5;
+        padding-left: 5em;
+        padding-right: 5em;
+        font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+        font-size: 14px; 
+        font-style: normal; font-variant: normal; 
+        font-weight: 400; 
+        line-height: 20px;
+        color:#10222E;
+       }
+
+       .chem-table-section-2 {
+                grid-column-start: 1; 
+                grid-column-end: 8;
+                grid-row-start: 4;
+                grid-row-end: 8;
+                /* border: solid; */
+                background-color: #224A63;
+                padding-left: 5em;
+                padding-right: 5em;
+                padding-bottom: 5em;
+                font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+                font-size: 14px; 
+                font-style: normal; font-variant: normal; 
+                font-weight: 400; 
+                line-height: 20px;
+                color: #f7f4f3;
+       }
+
+     .styles-header {
+       grid-column-start: 1;
+       grid-column-end: 2;
+       grid-row-start: 1;
+       grid-row-end: 4;
+       /* border: solid; */
+       background-color: #224A63;
+       padding-left: 5em;
+       padding-right: 5em;
+       color:#f7f4f3;
+     
+
+       }
+    
+
+       .hair-table-section {
+        grid-column-start: 2;
+        grid-column-end: 8;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        /* border: solid; */
+        background-color: #f7f4f3 ;
+        font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+        font-size: 14px; 
+        font-style: normal; font-variant: normal; 
+        font-weight: 400; 
+        line-height: 20px;
+        color:#002FA7;
+        text-align: center;
+        image-orientation: center;
+       }
+
+
+       .spacer {
+        grid-column-start: 1;
+        grid-column-end: 8;
+        grid-row-start: 4;
+        grid-row-end: 8;
+        /* border: solid;  */
+       }
+
+       .citation-header{
+        grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 1;
+            grid-column-end: 8;
+            color:#002FA7;
+       }
+
+       .citation-image {
+       grid-column-start: 1;
+       grid-column-end: 2;
+       grid-row-start: 2;
+       grid-row-end: 8;
+       /* border: solid; */
+
+       }
+
+       .citation {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 8;
+        /* border: solid; */
+        background-color: #54718F;
+        padding-left: 5em;
+        padding-right: 5em;
+        font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+        font-size: 14px; 
+        font-style: normal; font-variant: normal; 
+        font-weight: 400; 
+        line-height: 20px;
+       }
+    .about {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 8;
+        /* border: solid; */
+        background-color: #C5AFA5;
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+
+ 
+
+            
+            nav {
+                padding-left: 1em;
+                padding-right: 2em;
+                padding-top: 0.5em;
+                padding-bottom: 0.5em;
+                margin-bottom: 1em;
+                background-color: #f7f4f3;
+          
+
+            }
+            .navlink {
+                padding-left: 0.5em;
+                padding-right: 0.5em;
+                font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+                font-size: 14px; 
+                font-style: normal; font-variant: normal; 
+                font-weight: 400; 
+                line-height: 20px;
+                color:#002FA7;
+
+            }
+            .nav-button {
+                padding: 1em;
+                background-color: #98ADC3;
+                border-radius: 1em;
+                border-color:#98ADC3;
+            }
+            footer {
+                height: 10vh;
+                background-color: #f7f4f3;
+                color:#002FA7;
+                padding-top: 5em;
+            }   
